@@ -1,0 +1,132 @@
+.lihomeIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.menu11 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.homeContainer,
+.menu1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.homeContainer {
+  height: 48px;
+  width: 48px;
+  border-radius: var(--br-81xl);
+  background-color: var(--light);
+  padding: var(--padding-xs);
+  box-sizing: border-box;
+}
+.menu1 {
+  padding: 0 var(--padding-12xs);
+  cursor: pointer;
+  z-index: 1;
+}
+.person2Icon {
+  width: 28px;
+  height: 28px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.menu2,
+.menuItemProfile {
+  display: flex;
+  flex-direction: column;
+}
+.menu2 {
+  width: 31px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.menuItemProfile {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-smi) 0 0;
+}
+.menuItemPlaceholderChild {
+  width: 20.1px;
+  height: 20px;
+  position: relative;
+  cursor: pointer;
+}
+.menuItemPlaceholder {
+  width: 33px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-xs) 0 0;
+  box-sizing: border-box;
+}
+.menu4,
+.menu4Wrapper,
+.menuItemPlaceholder {
+  display: flex;
+  flex-direction: column;
+}
+.menu4 {
+  width: 29px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.menu4Wrapper {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-smi) 0 0;
+}
+.icon1 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.iconWrapper,
+.menu,
+.menuList {
+  display: flex;
+  align-items: flex-start;
+}
+.iconWrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+}
+.menu,
+.menuList {
+  flex-direction: row;
+  max-width: 100%;
+}
+.menuList {
+  flex: 1;
+  background-color: var(--textcolor-neutral);
+  justify-content: space-between;
+  padding: var(--padding-base) var(--padding-40xl) var(--padding-base)
+    var(--padding-25xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.menu {
+  align-self: stretch;
+  box-shadow: 0 4px 50px rgba(0, 0, 0, 0.1);
+  justify-content: flex-start;
+  z-index: 1;
+}
+@media screen and (max-width: 376px) {
+  .menuList {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

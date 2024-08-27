@@ -1,0 +1,172 @@
+.time1 {
+  flex: 1;
+  position: relative;
+  line-height: 22px;
+  font-weight: 600;
+}
+.time {
+  width: 154px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-38xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.cellularConnectionIcon,
+.wifiIcon {
+  height: 12px;
+  width: 19px;
+  position: relative;
+}
+.wifiIcon {
+  width: 17px;
+}
+.border,
+.capIcon {
+  position: absolute;
+  mix-blend-mode: normal;
+}
+.border {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: calc(50% - 13.5px);
+  border-radius: var(--br-8xs-3);
+  border: 1px solid var(--black-white-900);
+  box-sizing: border-box;
+  width: 24.7px;
+  opacity: 0.35;
+}
+.capIcon {
+  height: 31.54%;
+  top: 36.92%;
+  bottom: 31.54%;
+  left: calc(50% + 12.2px);
+  max-height: 100%;
+  width: 1.3px;
+}
+.capacity {
+  position: absolute;
+  height: 69.23%;
+  top: 15.38%;
+  bottom: 15.38%;
+  left: calc(50% - 11.5px);
+  border-radius: var(--br-10xs-5);
+  background-color: var(--black-white-900);
+  width: 20.7px;
+  z-index: 1;
+}
+.battery {
+  height: 13px;
+  width: 27px;
+  position: relative;
+}
+.levels,
+.statusBarIphone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.levels {
+  padding: var(--padding-xl-5) var(--padding-17xl);
+  gap: var(--gap-5xs);
+}
+.statusBarIphone {
+  align-self: stretch;
+  padding: 0;
+  gap: var(--gap-157xl);
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--black-white-900);
+  font-family: var(--font-montserrat);
+}
+.arrowLeftIcon {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.back {
+  height: 42px;
+  width: 42px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-aliceblue-100);
+  border: 1px solid var(--color-aliceblue-100);
+  box-sizing: border-box;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-2xs);
+  z-index: 1;
+}
+.connections {
+  text-decoration: none;
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 114px;
+  white-space: nowrap;
+}
+.hamburgerMenu {
+  border-radius: var(--br-31xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-xs);
+}
+.solarbellLinearIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.navigationBar,
+.notifications {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.notifications {
+  height: 44px;
+  width: 44px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-aliceblue-100);
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+  box-sizing: border-box;
+}
+.navigationBar {
+  align-self: stretch;
+  justify-content: space-between;
+  padding: 0 var(--padding-6xl) 0 var(--padding-7xl);
+  gap: var(--gap-55xs);
+}
+.subPageV2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  height: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-montserrat);
+}

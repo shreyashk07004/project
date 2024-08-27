@@ -1,0 +1,29 @@
+.solarsettingsLinearIcon {
+  position: absolute;
+  top: 66px;
+  left: 328px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  z-index: 2;
+}
+.profileHeader {
+  height: 101.3px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.profilePage {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xs-7) var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-montserrat);
+}
